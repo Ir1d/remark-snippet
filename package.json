@@ -1,7 +1,7 @@
 {
-  "name": "remark-import",
-  "version": "0.0.8",
-  "description": "Transform @import statements to contents. Forked and heavily revised from Stephe Belanger's original remark-include.",
+  "name": "remark-snippet",
+  "version": "0.0.1",
+  "description": "Support snippet from pymdown into remark",
   "keywords": [
     "remark",
     "import",
@@ -10,31 +10,22 @@
   "scripts": {
     "patch-release": "npm version patch && npm publish && git push --follow-tags"
   },
-  "homepage": "https://github.com/BrekiTomasson/remark-import#readme",
+  "homepage": "https://github.com/Ir1d/remark-snippet/#readme",
   "bugs": {
-    "url": "https://github.com/BrekiTomasson/remark-import/issues"
+    "url": "https://github.com/Ir1d/remark-snippet//issues"
   },
   "license": "MIT",
-  "author": {
-    "name": "Breki Tomasson",
-    "email": "breki.tomasson@gmail.com",
-    "url": "http://www.brekitomasson.com"
-  },
-  "contributors": [
-    {
-      "name": "Stephen Belanger",
-      "email": "admin@stephenbelanger.com"
-    }
-  ],
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BrekiTomasson/remark-import.git"
+    "url": "git+https://github.com/Ir1d/remark-snippet/.git"
   },
   "dependencies": {
     "is-local-path": "^0.1.6",
     "js-base64-file": "^1.0.1",
     "progress": "^2.0.0",
+    "remark": "^12.0.1",
+    "to-vfile": "^6.1.0",
     "vfile": "^2.2.0"
   }
 }

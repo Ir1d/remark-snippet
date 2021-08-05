@@ -1,5 +1,7 @@
 Hello. I am an includer.
 
-@import ./included.md
+--8<-- ./included.md
 
 _That_ should do it!
+
+    --8<-- ./included.md
